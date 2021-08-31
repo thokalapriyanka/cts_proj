@@ -23,7 +23,7 @@ pipeline {
       }
       stage('Execute') {
          steps {
-            bat 'java -jar "C:/Windows/System32/config/systemprofile/AppData/Local/Jenkins/.jenkins/workspace/projcts_pipeline/target/projcts1-1.0-SNAPSHOT.jar"'
+            bat 'java -jar "C:/Windows/System32/config/systemprofile/AppData/Local/Jenkins/.jenkins/workspace/projcts_pipeline/target/projcts-1.0-SNAPSHOT.jar"'
          }
       }
    }
